@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = 'makepkg'
 version = "0.0.1"
 authors = [{ name = "Patrick Boateng", email = "boatengpato.pb@gmail.com" }]
-description = "A simple approach to creating python packages."
+description = "Python packaging, made simple."
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
