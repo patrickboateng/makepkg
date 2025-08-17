@@ -4,7 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = 'makepkg'
-version = "0.0.2"
 authors = [{ name = "Patrick Boateng", email = "boatengpato.pb@gmail.com" }]
 description = "Python packaging, made simple."
 readme = "README.md"
@@ -19,6 +18,10 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
 ]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "makepkg.__version__"}
 
 [project.urls]
 homepage = "https://github.com/patrickboateng/makepkg"
