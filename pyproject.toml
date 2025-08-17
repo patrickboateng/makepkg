@@ -26,8 +26,9 @@ version = {attr = "makepkg.__version__"}
 [project.urls]
 homepage = "https://github.com/patrickboateng/makepkg"
 
-[tool.setuptools]
-packages = ['makepkg']
+[tool.setuptools.packages.find]
+include = "func_validator*"
+namespaces = false
 
 [project.optional-dependencies]
 dev = ['wheel', 'black', 'pytest', 'mypy', 'setuptools']
