@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = 'makepkg'
-authors = [{ name = "Patrick Boateng", email = "boatengpato.pb@gmail.com" }]
+authors = [{ name = "Patrick Boateng", email = "patrickboateng@patrickboateng.tech" }]
 description = "Python packaging, made simple."
 readme = "README.md"
 license = { file = "LICENSE" }
