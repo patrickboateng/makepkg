@@ -8,7 +8,8 @@
 
 </div>
 
-Build and share your Python projects without the complexity.
+Build and share your Python projects without the complexity. 
 
+**_Inspired by the javascript ecosystem._**
 
 **Project currently under development**
